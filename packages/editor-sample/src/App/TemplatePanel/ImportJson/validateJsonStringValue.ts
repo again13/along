@@ -10,7 +10,7 @@ export default function validateTextAreaValue(value: string): TResult {
     return { error: 'Invalid json' };
   }
 
-  const parseResult = EditorConfigurationSchema.safeParse(jsonObject);
+  var parseResult = EditorConfigurationSchema.safeParse(jsonObject);
   if (!parseResult.success) {
     return { error: 'Invalid JSON schema' };
   }
