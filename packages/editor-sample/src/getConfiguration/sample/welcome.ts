@@ -1,6 +1,6 @@
 import { TEditorConfiguration } from '../../documents/editor/core';
 
-let WELCOME: TEditorConfiguration = {
+const WELCOME: TEditorConfiguration = {
   root: {
     type: 'EmailLayout',
     data: {
