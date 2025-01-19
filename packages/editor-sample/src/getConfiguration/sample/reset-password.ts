@@ -1,6 +1,6 @@
 import { TEditorConfiguration } from '../../documents/editor/core';
 
-let RESET_PASSWORD: TEditorConfiguration = {
+const RESET_PASSWORD: TEditorConfiguration = {
   root: {
     type: 'EmailLayout',
     data: {
