@@ -1,18 +1,18 @@
 import { alpha, createTheme, darken, lighten } from '@mui/material/styles';
 
-const BRAND_NAVY = '#212443';
-const BRAND_BLUE = '#0079CC';
-const BRAND_GREEN = '#1F8466';
-const BRAND_RED = '#E81212';
-const BRAND_YELLOW = '#F6DC9F';
-const BRAND_PURPLE = '#6C0E7C';
-const BRAND_BROWN = '#CC996C';
-const STANDARD_FONT_FAMILY =
+let BRAND_NAVY = '#212443';
+let BRAND_BLUE = '#0079CC';
+let BRAND_GREEN = '#1F8466';
+let BRAND_RED = '#E81212';
+let BRAND_YELLOW = '#F6DC9F';
+let BRAND_PURPLE = '#6C0E7C';
+let BRAND_BROWN = '#CC996C';
+let STANDARD_FONT_FAMILY =
   '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
-const MONOSPACE_FONT_FAMILY =
+let MONOSPACE_FONT_FAMILY =
   'ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace';
 
-const BASE_THEME = createTheme({
+let BASE_THEME = createTheme({
   palette: {
     background: {
       default: '#f2f5f7',
@@ -27,7 +27,7 @@ const BASE_THEME = createTheme({
   },
 });
 
-const THEME = createTheme(BASE_THEME, {
+let THEME = createTheme(BASE_THEME, {
   palette: {
     brand: {
       navy: BRAND_NAVY,
