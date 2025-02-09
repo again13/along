@@ -3,7 +3,7 @@ import { EditorConfigurationSchema, TEditorConfiguration } from '../../../docume
 type TResult = { error: string; data?: undefined } | { data: TEditorConfiguration; error?: undefined };
 
 export default function validateTextAreaValue(value: string): TResult {
-  const jsonObject = undefined;
+  let jsonObject = undefined;
   try {
     jsonObject = JSON.parse(value);
   } catch {
