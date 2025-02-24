@@ -1,6 +1,6 @@
 import type { Config } from 'jest';
 
-let config: Config = {
+const config: Config = {
   preset: 'ts-jest',
   testEnvironment: 'jsdom',
 };
