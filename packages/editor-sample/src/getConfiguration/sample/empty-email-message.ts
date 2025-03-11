@@ -1,6 +1,6 @@
 import { TEditorConfiguration } from '../../documents/editor/core';
 
-let EMPTY_EMAIL_MESSAGE: TEditorConfiguration = {
+const EMPTY_EMAIL_MESSAGE: TEditorConfiguration = {
   root: {
     type: 'EmailLayout',
     data: {
