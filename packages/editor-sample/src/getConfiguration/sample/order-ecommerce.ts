@@ -1,6 +1,6 @@
 import { TEditorConfiguration } from '../../documents/editor/core';
 
-const ORDER_ECOMMERCE: TEditorConfiguration = {
+let ORDER_ECOMMERCE: TEditorConfiguration = {
   root: {
     type: 'EmailLayout',
     data: {
